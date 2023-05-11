@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homepage</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div>
+    <header class="header">
+        <span class="headerTitle">
+            Vacinas
+        </span>
+    </header>
+    </div>
+    <div class="div_button">
+        <a class="button" href="{{url_for('vdisponiveis')}}">Vacinas Disponiveis</a>
+        <a class="button" href="{{url_for('calendario')}}">Calendario de Vacinação</a>
+        <a class="button" href="{{url_for('locais')}}">Pontos de Vacinação</a>
+        <a class="button" href="{{url_for('qpsvacinar')}}">Quem pode se Vacinar</a>
+    </div>
+    <div>
+        <footer class="footer">
+            Todos os direitos reservados
+        </footer>
+    </div>
+</body>
+</html>
