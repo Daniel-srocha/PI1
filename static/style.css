@@ -1,70 +1,74 @@
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-}
-.header {
-    background: white;
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 4px 4px 4px #b0e0e6;
-}
-.header .headerTitle {
-    font-size: 2.5em;
-    color: #0000FF;
-    font-weight: 700;
-    line-height: 60px;
-    margin-left: 20px;
-}
-.footer{
-    background: white;
-    width: 100%;
-    height: 190px;
-    margin-top: 3em;
-    font-size: 1em;
-    text-align: center;
-    border-top: 4px solid #b0e0e6;
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
-button {
-    font: inherit;
-    cursor: pointer;
+/* Cabeçalho */
+.header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header .headerTitle {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+/* Botões */
+.div_button {
+    text-align: center;
+    margin-top: 20px;
 }
 
 .button {
-    margin-top: 10%;
-    margin-left: 15%;
     display: inline-block;
-    padding: 0.5eme 1em;
+    padding: 15px 30px;
     text-decoration: none;
-    text-align: center;
     border-radius: 0.5em;
-    width: 200px;
-    height: 200px;
-    background: #FFFFFF;
-    border: 1px solid #000;
-    box-shadow: 4px 4px 4px #0000FF;
-    font-size: 1.2em
-}
-.button:hover{
-    box-shadow: 3px 3px 3px #000;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px;
+    transition: background-color 0.3s;
 }
 
-.div1{
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    color: #333;
+}
+
+
+/* Elementos com classe "div1" */
+.div1 {
     margin-top: 10%;
+    text-align: center;
 }
 
-.quem_pode{
-    text-align: left;
-    color: #0000FF;
+/* Elementos com classe "quem_pode" */
+.quem_pode {
+    margin-top: 5%;
+    text-align: center;
+    color: #007bff;
 }
 
-.table{
+/* Tabelas */
+.table {
+    width: 70%;
+    text-align: center;
+    color: #341fad;
     margin-top: 10%;
-    font-size: 2em;
-    border: 1px solid #000;
-    box-shadow: 3px 3px 3px #0000FF;
+    font-size: 1.5em;
 }
