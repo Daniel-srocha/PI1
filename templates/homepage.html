@@ -2,27 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>homepage</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='static/style.css')}}">
 </head>
 <body>
     <div>
-    <header class="header">
-        <span class="headerTitle">
-            Vacinas
-        </span>
-    </header>
+        <header class="header">
+            <span class="headerTitle">
+                Vacinas
+            </span>
+        </header>
     </div>
     <div class="div_button">
-        <a class="button" href="{{url_for('vdisponiveis')}}">Vacinas Disponiveis</a>
-        <a class="button" href="{{url_for('calendario')}}">Calendario de Vacinação</a>
-        <a class="button" href="{{url_for('locais')}}">Pontos de Vacinação</a>
-        <a class="button" href="{{url_for('qpsvacinar')}}">Quem pode se Vacinar</a>
+        <a class="button" href="vdisponiveis.html" aria-label="Ir para a página de Vacinas Disponíveis">Vacinas Disponíveis</a>
+        <a class="button" href="calendario.html" aria-label="Ir para a página de Calendário de Vacinação">Calendário de Vacinação</a>
+        <a class="button" href="locais.html" aria-label="Ir para a página de Pontos de Vacinação">Pontos de Vacinação</a>
+        <a class="button" href="quem_pode_se_vacinar.html" aria-label="Ir para a página de Quem pode se Vacinar">Quem pode se Vacinar</a>
     </div>
     <div>
         <footer class="footer">
             Todos os direitos reservados
         </footer>
     </div>
+    
+    <script>
+        // Exemplo de JavaScript para acessibilidade
+        const buttons = document.querySelectorAll('.button');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', function() {
+                const label = this.getAttribute('aria-label');
+                alert(label);
+            });
+        });
+    </script>
 </body>
 </html>
