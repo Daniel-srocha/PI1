@@ -38,7 +38,7 @@ body {
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #b31500;
 }
 
 .button1 {
@@ -55,6 +55,15 @@ body {
     
      
 }
+.text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 100px 100px 100px 100px;
+    
+    
+
+}
 
 .button1:hover {
     background-color: #0056b3;
@@ -70,6 +79,11 @@ body {
     width: 100%;
 }
 
+.img1 {
+    max-width: max-content;
+    display: block;
+    margin: auto;
+}
 
 /* Elementos com classe "div1" */
 .div1 {
