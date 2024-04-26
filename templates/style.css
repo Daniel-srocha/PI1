@@ -56,34 +56,87 @@ body {
      
 }
 .text {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    text-align: justify;
-    margin: 100px 100px 100px 100px;
-    
-    
+    float: left;
+  font: 160% sans-serif;
+  width: 30%;
+  margin:2%;
+  padding:10px 20px;
+  border: 1px solid #ccc; 
+  background-color: #97c7fa;
+}
 
+.text2 {
+    float: right;
+  font: 160% sans-serif;
+  width: 30%;
+  margin:2%;
+  padding:10px 20px;
+  border: 1px solid #ccc;
+  background-color: #97c7fa;
+}
+
+.text3 {
+    float: left;
+  font: 160% sans-serif;
+  width: 50%;
+  margin:2%;
+  padding:10px 20px;
+  border: 1px solid #ccc;
+  background-color: #97c7fa;
+}
+
+.text:hover {
+    background-color: cadetblue;
+    width: 40%;
+    
+}
+
+.text2:hover {
+    background-color: cadetblue;
+    width: 40%;
+    
+}
+
+.text3:hover {
+    background-color: cadetblue;
+    width: 40%;
+    
 }
 
 .button1:hover {
     background-color: #0056b3;
 }
 
-/* Rodapé */
-.footer {
-    background-color: #f2f2f2;
-    text-align: center;
-    padding: 10px 0;
-    position: auto; 
-    bottom: 0;
-    width: 100%;
-}
+
 
 .img1 {
     max-width: max-content;
     display: block;
     margin: auto;
 }
+
+.img2 {
+    max-width: max-content;
+    display: block;
+    margin: auto;
+    padding: 30px;
+}
+
+.img2:hover {
+    border-radius: 10px;
+    border-color: #b31500;
+    background-color: #b31500;
+
+}
+
+.tec {
+    max-width: max-content;
+    display: block;
+    margin: auto;
+    padding: 30px;
+}
+
+
 
 /* Elementos com classe "div1" */
 .div1 {
@@ -100,32 +153,4 @@ body {
     color: #007bff;
 }
 
-/* Tabelas */
-.table {
-    width: 100%;
-    text-align: center;
-    color: #341fad;
-    margin-top: 2%;
-    font-size: 1.5em;
-    width: 400px;
-    height: 400px;
-    border-collapse: collapse;
-    border: 3px solid #007bff;
-    border-radius: 10px;
-    margin: auto;
-}
-tr {
-    background-color: white;
-}
-
-tr.linha {
-    background-color: rgba(128, 128, 128, 0.719);
-    color: #007bff;
-}
-td {
-    border: 2px solid #007bff;
-    padding: 8px;
-    text-align: center;
-    vertical-align: middle;
-} 
 
