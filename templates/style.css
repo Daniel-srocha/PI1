@@ -19,6 +19,26 @@ body {
     font-weight: 700;
 }
 
+h1 {
+    color: #0056b3;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 5.5em;
+    
+}
+
+h2 {
+    padding-top: 200px;
+    text-align: center;
+    color: darkgreen;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+    margin: 5% 10%;
+}
+
 /* Botões */
 .div_button {
     text-align: center;
@@ -85,21 +105,33 @@ body {
   background-color: #97c7fa;
 }
 
+.text4 {
+    float: none;
+    font: 200% sans-serif;
+    width: 60%;
+    margin:2%;
+    padding:10px 20px;
+    border: 1px solid #ccc; 
+    background-color: #c9e0f8;
+}
 .text:hover {
     background-color: cadetblue;
     width: 40%;
+    transition: 0.5s;
     
 }
 
 .text2:hover {
     background-color: cadetblue;
     width: 40%;
+    transition: 0.5s;
     
 }
 
 .text3:hover {
     background-color: cadetblue;
     width: 40%;
+    transition: 0.5s;
     
 }
 
@@ -120,6 +152,10 @@ body {
     display: block;
     margin: auto;
     padding: 30px;
+}
+
+.img3 {
+    margin: 37%;
 }
 
 .img2:hover {
